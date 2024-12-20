@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: rgb(3, 7, 34);
+}
+.box-main{
+    margin:10PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firsthalf{
+    width: 50%;
+    padding: 1vw;
+    
+}
+.secondhalf{
+    width: 50%;
+    padding: 1vw;
+}
+.set{
+    margin-bottom: 2vw;
+    border-radius: 20vw;
+}
+.get{
+    margin-bottom: 2vw;
+    border-radius: 0vw 30vw; 
+}
+.tet{
+    margin-bottom: 10vw;
+    border-radius: 30vw 0vw; 
+}
+.textbig{
+    color: rgb(238, 150, 36);
+    text-align: center;
+    margin: 1vw;
+    padding: 3vw;
+    font-size:4.5vw;
+}
+.happy{
+    color: rgb(98, 194, 213);
+    font-family: "Caveat", serif;
+    font-size: 9vw;
+    text-align: center;
+    margin: 0;
+}
+.birthday{
+    color: rgb(239, 199, 40);
+    font-family: "Caveat", serif;
+    font-size: 12vw;
+    text-align: center;
+    margin: 0; 
+}
+.section{
+    margin:10PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    flex-direction:row-reverse;
+    margin: 0;
+}
+.yoy{
+    font-family: "Pacifico", serif;
+  }
+.no{
+    font-family: "Shadows Into Light", serif;
+    font-weight: 500;
+  }
+  .Designer{
+    border-radius: 50%;
+  }
+  .cafe{
+        border-radius: 10vw 20vw;
+  }
+.pink{
+ border-radius: 25vw 0vw;
+}
+.white{
+border-radius: 25vw 0vw;
+}
+.oi{
+    border-radius:0vw 25vw ;
+}
+.choco{
+    border-radius: 30vw 10vw;
+    font-family: "Caveat", serif;
+    
+}
+.last{
+   color: rgb(106, 253, 128);
+}
+@media  only screen and (min-width:768px)  {
+    .no{
+        font-family: "Shadows Into Light", serif;
+        font-weight: 260;
+      }
+    .Designer{
+        width: 70%;
+        margin-left:15%
+
+        }
+      .textbig{
+        font-size:2vw;
+        }
+    .cafe{
+        width: 70%;
+        margin-left:15%;
+        border-radius: 5vw 10vw;
+       }
+    .rat{
+        width: 70%;
+        border-radius: 25vw 0vw;
+       }
+       .white{
+        width: 70%;
+        margin-left:15%;
+        border-radius: 25vw 0vw;
+       }
+       .cat{
+        width: 70%;
+        margin-left:30%;
+        border-radius:0vw 25vw ;
+       }
+       .bird{
+        width: 70%;
+        margin-left:30%;
+        border-radius: 25vw 0vw;
+       }  
+     .dog{
+        width: 70%;
+        border-radius:0vw 25vw ;
+       }
+       .choco{
+        width: 70%;
+        border-radius: 30vw 10vw;
+       }
+       .set{
+        width: 40%;
+        margin-left:15%;
+        margin: 0;
+    }
+    .get{
+        width: 40%;
+        margin-left:15%;
+        margin: 0;
+    }
+    .tet{
+        width: 40%;
+        margin-left:15%;
+        margin: 0;
+    }
+    .coco{
+        width: 70%;
+        margin-left:30%;
+        border-radius: 30vw 10vw;
+
+    }
+}
